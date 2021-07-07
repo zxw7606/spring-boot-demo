@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 44401
   servlet:
     context-path: /demo
 
@@ -7,4 +7,13 @@ spring:
   dubbo:
     application:
       name: spring-boot-demo-dubbo-consumer
-      registry: zookeeper://127.0.0.1:2181
+#      registry: zookeeper://127.0.0.1:2181
+      registry: zookeeper://192.168.31.214:2181
+
+
+project:
+  name: ${spring.dubbo.application.name}
+csp:
+
+
+
