@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
     /**
      * 模拟数据库
      */
-    private static final Map<Long, User> DATABASES = Maps.newConcurrentMap();
+    public static final Map<Long, User> DATABASES = Maps.newConcurrentMap();
 
     /**
      * 初始化数据
